@@ -1,4 +1,4 @@
-title: "自媒体指南"
+title: "自媒体创作指南"
 url: "https://smlog.github.io"
 baseurl: "/"
 
@@ -16,7 +16,7 @@ sass:
   sass_dir: _sass
 
 nav:
-  - name: "About"
+  - name: "首页"
     link: "/"
   - name: "Resume"
     link: "resume.pdf"
