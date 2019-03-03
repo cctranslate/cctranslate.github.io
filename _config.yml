@@ -9,7 +9,7 @@ tracking_id: #
 
 footer: yes
 footer_url: "https://smlog.github.io/"
-footer_text: "Page design by Ankit Sultana"
+footer_text: "Page design by 业余时间"
 
 sass:
   style: compressed
