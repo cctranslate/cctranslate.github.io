@@ -1,5 +1,5 @@
-title: "自媒体创作指南"
-url: "https://smlog.github.io"
+title: "CC Translate:一款便捷的google翻译工具"
+url: "https://cctranslate.github.io"
 baseurl: "/"
 
 markdown: kramdown
@@ -8,7 +8,7 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://smlog.github.io/"
+footer_url: "https://cctranslate.github.io/"
 footer_text: "Page design by 业余时间"
 
 sass:
@@ -16,9 +16,11 @@ sass:
   sass_dir: _sass
 
 nav:
-  - name: "首页"
-    link: "/"
-  - name: "Resume"
-    link: "resume.pdf"
-  - name: "Contact"
-    link: "contact"
+  - name: "介绍"
+    link: "/#introduce"
+  - name: "如何使用"
+    link: "/#howto"
+  - name: "下载"
+    link: "/#download"
+  - name: "安装"
+    link: "/#install"
