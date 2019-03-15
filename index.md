@@ -1,5 +1,5 @@
 ---
-title: CC Translate 是一个用java语言编的简单便捷翻译工具
+title: "CC Translate:一款便捷的google翻译工具"
 layout: default
 ---
 
