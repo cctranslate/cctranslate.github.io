@@ -1,60 +1,27 @@
-# Researcher
 
-### [Demo Website](http://ankitsultana.com/researcher)
+## <span id = "introduce">介绍</span>
+CC Translate 是一个用java语言编的简单便捷翻译工具。
 
-A clean, single column, monospace resume template built for jekyll
+## <span id = "howto">如何使用</span>
+使用者只需要 选中需要翻译的词语或者句子，按两下ctrl + c 即可实现翻译。
 
-### Installation
+- 翻译单词
 
-Simply fork the repository and edit away.
+![](2019-03-04-13-39-12.png)
 
-#### Installation via remote themes
+- 翻译句子
 
-* Just setting `remote_theme: ankitsultana/researcher@gem` in `_config.yml` should work. Although in that case, I am not sure how
-you would build your site locally for testing. If you know how, open up an issue and let me know.
-* For more info, [refer this](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/).
+![](2019-03-04-13-40-20.png)
 
-### Customization
+## <span id = "download">下载</span>
 
-* You can edit the `.md` (markdown) files as you see fit. You can also add some other markdown file, say `foo.md` in the root directory of the repository. It will then be accessible like so `{{ url of your website }}/foo`.
+下载 launch4j 包装过的 [cc.exe](cc.exe) 文件。
 
-* You can of course remove `contact.md` if you don't want it
+或者直接下载 [cc.jar](cc.jar)  文件。
 
-* To set the heading, edit the `title` variable in `_config.yml`
+## <span id = "install">安装</span>
 
-* To edit the `links` mentioned on the navigation bar, you can edit `_config.yml`. For example:
+CCTranslate 是基于JAVA环境的，所以使用前要提前安装好JRE环境。
+可点击链接 下载安装 JRE [https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html).
 
-```
-nav:
- - name: "About"
-   link: "/researcher/"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
-```
-
-* You can change the accent (color of hyperlinks) by editing the `accent` variable in `_sass/vars.scss`
-
-* You can setup google analytics, by setting `tracking_id` in `_config.yml`
-
-* To add a profile picture, make sure to give the image tag the class `profile-picture`. In other words,do it like so:
-
-```html
-<img class="profile-picture" src="sherlock.jpg">
-```
-
-* You can remove/customize the footer as you like by setting the
-appropriate variables in `_config.yml`
-
-* (New in v1.2.0) You can add institute logo at the top, by setting `ins_logo` in `_config.yml`. If you want
-to adjust the logo's size, try setting `max-height` in `#ins-logo` in file `./_sass/_style.scss` to the desired
-value
-
-![Institute Logo Image Sample](https://github.com/ankitsultana/assets/raw/master/ins-logo-sample.png)
-
-**Note:** Customizing the accent color might cause merge conflicts if you later try to merge from `bk2dcradle/researcher` to fetch updates/patches etc. (applicable only if you have forked).
-
-### License
-
-[GNU GPL v3](https://github.com/bk2dcradle/researcher/blob/gh-pages/LICENSE)
+环境安装好后，双击 下载好的 cc.exe 文件或者 cc.jar 文件即可运行。
