@@ -1,10 +1,10 @@
 ---
-title: "CC Translate:一款便捷的google翻译工具"
+title: "CC Translate:一款便捷的翻译工具"
 layout: default
 ---
 
 ## <span id = "introduce">介绍</span>
-CC Translate 是一个用java语言编的简单便捷翻译工具，通过调用Google Translate API 进行在线翻译。
+CC Translate 是一个用java语言编的简单便捷翻译工具。
 
 ## <span id = "howto">如何使用</span>
 使用者只需要 选中需要翻译的词语或者句子，按两下ctrl + c 即可实现翻译。
